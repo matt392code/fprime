@@ -13,6 +13,13 @@ The standard patterns include:
 
 
 
+## Macro `skip_on_sub_build`:
+
+Skip this remaining code in the current function or file when executing in the context of a sub build. Sub builds
+execute utility and setup functions in fprime. However, certain CMake functions are not appropriate in this context
+and should be skipped.
+
+
 ## Macro `restrict_platforms`:
 
 Restricts a CMakeLists.txt file to a given list of platforms. This prevents usage on platforms for which the module
