@@ -118,9 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff635ec7d925dbcb7dc9864ab6f06baf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_drv.html#a1c85f9fab0c8763f9fec49eee9fc734d">SocketIpStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drv_1_1_udp_component_impl.html#aff635ec7d925dbcb7dc9864ab6f06baf">configureSend</a> (const char *hostname, const U16 port, const U32 send_timeout_seconds=<a class="el" href="ip_cfg_8hpp.html#a71b2b0b2f0742bd012e1a8e16ee1ee74a13c2974f4bb646b1b469e1cc4ff7fcdf">SOCKET_SEND_TIMEOUT_SECONDS</a>, const U32 send_timeout_microseconds=<a class="el" href="ip_cfg_8hpp.html#a71b2b0b2f0742bd012e1a8e16ee1ee74a9bf9b8ed768b479725c43505b7282640">SOCKET_SEND_TIMEOUT_MICROSECONDS</a>)</td></tr>
 <tr class="memdesc:aff635ec7d925dbcb7dc9864ab6f06baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the Udp send settings but does not open the connection.  <a href="class_drv_1_1_udp_component_impl.html#aff635ec7d925dbcb7dc9864ab6f06baf">More...</a><br /></td></tr>
 <tr class="separator:aff635ec7d925dbcb7dc9864ab6f06baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf223f51015286c6672c2c9f7ae6676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_drv.html#a1c85f9fab0c8763f9fec49eee9fc734d">SocketIpStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drv_1_1_udp_component_impl.html#a0bf223f51015286c6672c2c9f7ae6676">configureRecv</a> (const char *hostname, const U16 port)</td></tr>
-<tr class="memdesc:a0bf223f51015286c6672c2c9f7ae6676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the Udp receive settings but does not open the connection.  <a href="class_drv_1_1_udp_component_impl.html#a0bf223f51015286c6672c2c9f7ae6676">More...</a><br /></td></tr>
-<tr class="separator:a0bf223f51015286c6672c2c9f7ae6676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e84d3a128c7905d743bafbc719b8388"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_drv.html#a1c85f9fab0c8763f9fec49eee9fc734d">SocketIpStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drv_1_1_udp_component_impl.html#a3e84d3a128c7905d743bafbc719b8388">configureRecv</a> (const char *hostname, const U16 port, <a class="el" href="fp_config_8h.html#a924ef0ded73e6ec8a0a0b55e9e555fc4">FwSizeType</a> buffer_size=1024)</td></tr>
+<tr class="memdesc:a3e84d3a128c7905d743bafbc719b8388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the Udp receive settings but does not open the connection.  <a href="class_drv_1_1_udp_component_impl.html#a3e84d3a128c7905d743bafbc719b8388">More...</a><br /></td></tr>
+<tr class="separator:a3e84d3a128c7905d743bafbc719b8388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1b7d6556b91b443445d7abe12329d9d"><td class="memItemLeft" align="right" valign="top">U16&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drv_1_1_udp_component_impl.html#ac1b7d6556b91b443445d7abe12329d9d">getRecvPort</a> ()</td></tr>
 <tr class="memdesc:ac1b7d6556b91b443445d7abe12329d9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the port being received on  <a href="class_drv_1_1_udp_component_impl.html#ac1b7d6556b91b443445d7abe12329d9d">More...</a><br /></td></tr>
 <tr class="separator:ac1b7d6556b91b443445d7abe12329d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -346,7 +346,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00025">25</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00026">26</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -367,13 +367,13 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Destroy the component. </p>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00039">39</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00043">43</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0bf223f51015286c6672c2c9f7ae6676"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf223f51015286c6672c2c9f7ae6676">&#9670;&nbsp;</a></span>configureRecv()</h2>
+<a id="a3e84d3a128c7905d743bafbc719b8388"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e84d3a128c7905d743bafbc719b8388">&#9670;&nbsp;</a></span>configureRecv()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -388,7 +388,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const U16&#160;</td>
-          <td class="paramname"><em>port</em>&#160;</td>
+          <td class="paramname"><em>port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="fp_config_8h.html#a924ef0ded73e6ec8a0a0b55e9e555fc4">FwSizeType</a>&#160;</td>
+          <td class="paramname"><em>buffer_size</em> = <code>1024</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -404,12 +410,13 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">hostname</td><td>ip address of remote tcp server in the form x.x.x.x </td></tr>
     <tr><td class="paramname">port</td><td>port of remote tcp server </td></tr>
+    <tr><td class="paramname">buffer_size</td><td>size of the buffer to be allocated. Defaults to 1024. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>status of the configure </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00035">35</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00036">36</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -464,7 +471,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>status of the configure </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00028">28</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00029">29</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -495,7 +502,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_drv_1_1_socket_component_helper.html#a78f3890cf8d8628230fe1be73b2d623c">Drv::SocketComponentHelper</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00071">71</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00075">75</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -528,7 +535,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_drv_1_1_socket_component_helper.html#a38ecd3facd1c39436ca11e1d6b7ac8c5">Drv::SocketComponentHelper</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00053">53</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00057">57</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -551,7 +558,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Most useful when receive was configured to use port "0", this will return the port used for receiving data after a port has been determined. Will return 0 if the connection has not been setup.</p>
 <dl class="section return"><dt>Returns</dt><dd>receive port </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00041">41</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00045">45</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -584,7 +591,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_drv_1_1_socket_component_helper.html#a49c6e31826561839395a6e40afe814d3">Drv::SocketComponentHelper</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00049">49</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00053">53</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
@@ -628,7 +635,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Implements <a class="el" href="class_drv_1_1_socket_component_helper.html#a0a246a4a2d1b577b69fa99af80bc1598">Drv::SocketComponentHelper</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00057">57</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="udp_component_impl_8cpp_source.html#l00061">61</a> of file <a class="el" href="udp_component_impl_8cpp_source.html">UdpComponentImpl.cpp</a>.</p>
 
 </div>
 </div>
