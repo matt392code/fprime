@@ -31,6 +31,8 @@ var class_svc_1_1_file_uplink_component_base =
     [ "log_WARNING_HI_FileWriteError_ThrottleClear", "class_svc_1_1_file_uplink_component_base.html#a3b63b0493e3aece40b4b686d54110102", null ],
     [ "log_WARNING_HI_InvalidReceiveMode", "class_svc_1_1_file_uplink_component_base.html#aeb9a7e05fd812787490d2ddcba6f8c45", null ],
     [ "log_WARNING_HI_InvalidReceiveMode_ThrottleClear", "class_svc_1_1_file_uplink_component_base.html#ad35aaa8c29ab7c66db3106f717c1eb8f", null ],
+    [ "log_WARNING_HI_PacketDuplicate", "class_svc_1_1_file_uplink_component_base.html#a63c10becb888bbb1a187d1ae89e42ca8", null ],
+    [ "log_WARNING_HI_PacketDuplicate_ThrottleClear", "class_svc_1_1_file_uplink_component_base.html#a4bacd298fa43111fa91aefbc4025ca83", null ],
     [ "log_WARNING_HI_PacketOutOfBounds", "class_svc_1_1_file_uplink_component_base.html#a76ab76d4b4c10a0890f6ec06be53745d", null ],
     [ "log_WARNING_HI_PacketOutOfBounds_ThrottleClear", "class_svc_1_1_file_uplink_component_base.html#a9490179de09732c006e6e8e23dea5c06", null ],
     [ "log_WARNING_HI_PacketOutOfOrder", "class_svc_1_1_file_uplink_component_base.html#acedb7b10e819cac34579f8e481bb5bdf", null ],

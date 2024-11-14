@@ -197,17 +197,22 @@ Additional Inherited Members</h2></td></tr>
 &#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a870ec10686414183e83518c55d648a02">EVENTID_INVALIDRECEIVEMODE</a> = 0x4
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59afcfdd8919c840477cd8409f68191d3b2">EVENTID_PACKETOUTOFBOUNDS</a> = 0x5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59aef0247ae496fa95f5d405db986acb2e7">EVENTID_PACKETOUTOFORDER</a> = 0x6
-, <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a04aa37042c3c89518b3664fcb0dfa347">EVENTID_UPLINKCANCELED</a> = 0x7
+, <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a32971ce1e6dea29313c4e11d9e2d3b87">EVENTID_PACKETDUPLICATE</a> = 0x7
 , <br />
-&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59af6d651ef1f98b5a8907f0f98c72be70c">EVENTID_DECODEERROR</a> = 0x8
+&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a04aa37042c3c89518b3664fcb0dfa347">EVENTID_UPLINKCANCELED</a> = 0x8
+, <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59af6d651ef1f98b5a8907f0f98c72be70c">EVENTID_DECODEERROR</a> = 0x9
 <br />
  }</td></tr>
 <tr class="memdesc:a38162fe2a87f5dd6bb762e7f8ed77e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event IDs.  <a href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59">More...</a><br /></td></tr>
 <tr class="separator:a38162fe2a87f5dd6bb762e7f8ed77e59 inherit pro_types_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca18067311c66d9fbca0377c566d7d85 inherit pro_types_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a9d2402f29c839bb64c23c48d48c4baf5">EVENTID_FILEWRITEERROR_THROTTLE</a> = 5
+<tr class="memitem:aca18067311c66d9fbca0377c566d7d85 inherit pro_types_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a9d2402f29c839bb64c23c48d48c4baf5">EVENTID_FILEWRITEERROR_THROTTLE</a> = 5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a01c00eb8edf1de6592aa2e8c311f7144">EVENTID_INVALIDRECEIVEMODE_THROTTLE</a> = 5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a28f0b5f9436a49d79fb52d10df42c596">EVENTID_PACKETOUTOFBOUNDS_THROTTLE</a> = 5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85aa38bbda63f2aefbc09ad0c92ac0a1406">EVENTID_PACKETOUTOFORDER_THROTTLE</a> = 20
+, <br />
+&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a0d9eb9a7262299854e9e59026d8e2cf8">EVENTID_PACKETDUPLICATE_THROTTLE</a> = 20
+<br />
  }</td></tr>
 <tr class="memdesc:aca18067311c66d9fbca0377c566d7d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event throttle values: sets initial value of countdown variables.  <a href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85">More...</a><br /></td></tr>
 <tr class="separator:aca18067311c66d9fbca0377c566d7d85 inherit pro_types_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,6 +293,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a76ab76d4b4c10a0890f6ec06be53745d inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acedb7b10e819cac34579f8e481bb5bdf inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#acedb7b10e819cac34579f8e481bb5bdf">log_WARNING_HI_PacketOutOfOrder</a> (U32 packetIndex, U32 lastPacketIndex)</td></tr>
 <tr class="separator:acedb7b10e819cac34579f8e481bb5bdf inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c10becb888bbb1a187d1ae89e42ca8 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a63c10becb888bbb1a187d1ae89e42ca8">log_WARNING_HI_PacketDuplicate</a> (U32 packetIndex)</td></tr>
+<tr class="separator:a63c10becb888bbb1a187d1ae89e42ca8 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a172a3147d0c5847095d9ea54c2bca00c inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a172a3147d0c5847095d9ea54c2bca00c">log_ACTIVITY_HI_UplinkCanceled</a> ()</td></tr>
 <tr class="separator:a172a3147d0c5847095d9ea54c2bca00c inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b7e601f560cf9cb4da5bce60f43b077 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a0b7e601f560cf9cb4da5bce60f43b077">log_WARNING_HI_DecodeError</a> (I32 status)</td></tr>
@@ -304,6 +311,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5d17c7ee2240d9c130627aa648693549 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a5d17c7ee2240d9c130627aa648693549">log_WARNING_HI_PacketOutOfOrder_ThrottleClear</a> ()</td></tr>
 <tr class="memdesc:a5d17c7ee2240d9c130627aa648693549 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset throttle value for PacketOutOfOrder.  <a href="class_svc_1_1_file_uplink_component_base.html#a5d17c7ee2240d9c130627aa648693549">More...</a><br /></td></tr>
 <tr class="separator:a5d17c7ee2240d9c130627aa648693549 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bacd298fa43111fa91aefbc4025ca83 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a4bacd298fa43111fa91aefbc4025ca83">log_WARNING_HI_PacketDuplicate_ThrottleClear</a> ()</td></tr>
+<tr class="memdesc:a4bacd298fa43111fa91aefbc4025ca83 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset throttle value for PacketDuplicate.  <a href="class_svc_1_1_file_uplink_component_base.html#a4bacd298fa43111fa91aefbc4025ca83">More...</a><br /></td></tr>
+<tr class="separator:a4bacd298fa43111fa91aefbc4025ca83 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab29d443545b0613acc85e892d0a79af8 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#ab29d443545b0613acc85e892d0a79af8">tlmWrite_FilesReceived</a> (U32 arg, <a class="el" href="class_fw_1_1_time.html">Fw::Time</a> _tlmTime=<a class="el" href="class_fw_1_1_time.html">Fw::Time</a>())</td></tr>
 <tr class="separator:ab29d443545b0613acc85e892d0a79af8 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a233fd739d100acf1c4a5fb30642691 inherit pro_methods_class_svc_1_1_file_uplink_component_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a7a233fd739d100acf1c4a5fb30642691">tlmWrite_PacketsReceived</a> (U32 arg, <a class="el" href="class_fw_1_1_time.html">Fw::Time</a> _tlmTime=<a class="el" href="class_fw_1_1_time.html">Fw::Time</a>())</td></tr>
@@ -427,7 +437,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>Destroy object <a class="el" href="class_svc_1_1_file_uplink.html">FileUplink</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_8cpp_source.html#l00035">35</a> of file <a class="el" href="file_uplink_8cpp_source.html">FileUplink.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_8cpp_source.html#l00036">36</a> of file <a class="el" href="file_uplink_8cpp_source.html">FileUplink.cpp</a>.</p>
 
 </div>
 </div>

@@ -185,17 +185,22 @@ Protected Types</h2></td></tr>
 &#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a870ec10686414183e83518c55d648a02">EVENTID_INVALIDRECEIVEMODE</a> = 0x4
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59afcfdd8919c840477cd8409f68191d3b2">EVENTID_PACKETOUTOFBOUNDS</a> = 0x5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59aef0247ae496fa95f5d405db986acb2e7">EVENTID_PACKETOUTOFORDER</a> = 0x6
-, <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a04aa37042c3c89518b3664fcb0dfa347">EVENTID_UPLINKCANCELED</a> = 0x7
+, <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a32971ce1e6dea29313c4e11d9e2d3b87">EVENTID_PACKETDUPLICATE</a> = 0x7
 , <br />
-&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59af6d651ef1f98b5a8907f0f98c72be70c">EVENTID_DECODEERROR</a> = 0x8
+&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59a04aa37042c3c89518b3664fcb0dfa347">EVENTID_UPLINKCANCELED</a> = 0x8
+, <a class="el" href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59af6d651ef1f98b5a8907f0f98c72be70c">EVENTID_DECODEERROR</a> = 0x9
 <br />
  }</td></tr>
 <tr class="memdesc:a38162fe2a87f5dd6bb762e7f8ed77e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event IDs.  <a href="class_svc_1_1_file_uplink_component_base.html#a38162fe2a87f5dd6bb762e7f8ed77e59">More...</a><br /></td></tr>
 <tr class="separator:a38162fe2a87f5dd6bb762e7f8ed77e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca18067311c66d9fbca0377c566d7d85"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a9d2402f29c839bb64c23c48d48c4baf5">EVENTID_FILEWRITEERROR_THROTTLE</a> = 5
+<tr class="memitem:aca18067311c66d9fbca0377c566d7d85"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a9d2402f29c839bb64c23c48d48c4baf5">EVENTID_FILEWRITEERROR_THROTTLE</a> = 5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a01c00eb8edf1de6592aa2e8c311f7144">EVENTID_INVALIDRECEIVEMODE_THROTTLE</a> = 5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a28f0b5f9436a49d79fb52d10df42c596">EVENTID_PACKETOUTOFBOUNDS_THROTTLE</a> = 5
 , <a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85aa38bbda63f2aefbc09ad0c92ac0a1406">EVENTID_PACKETOUTOFORDER_THROTTLE</a> = 20
+, <br />
+&#160;&#160;<a class="el" href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85a0d9eb9a7262299854e9e59026d8e2cf8">EVENTID_PACKETDUPLICATE_THROTTLE</a> = 20
+<br />
  }</td></tr>
 <tr class="memdesc:aca18067311c66d9fbca0377c566d7d85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event throttle values: sets initial value of countdown variables.  <a href="class_svc_1_1_file_uplink_component_base.html#aca18067311c66d9fbca0377c566d7d85">More...</a><br /></td></tr>
 <tr class="separator:aca18067311c66d9fbca0377c566d7d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,6 +289,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a76ab76d4b4c10a0890f6ec06be53745d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acedb7b10e819cac34579f8e481bb5bdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#acedb7b10e819cac34579f8e481bb5bdf">log_WARNING_HI_PacketOutOfOrder</a> (U32 packetIndex, U32 lastPacketIndex)</td></tr>
 <tr class="separator:acedb7b10e819cac34579f8e481bb5bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63c10becb888bbb1a187d1ae89e42ca8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a63c10becb888bbb1a187d1ae89e42ca8">log_WARNING_HI_PacketDuplicate</a> (U32 packetIndex)</td></tr>
+<tr class="separator:a63c10becb888bbb1a187d1ae89e42ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a172a3147d0c5847095d9ea54c2bca00c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a172a3147d0c5847095d9ea54c2bca00c">log_ACTIVITY_HI_UplinkCanceled</a> ()</td></tr>
 <tr class="separator:a172a3147d0c5847095d9ea54c2bca00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b7e601f560cf9cb4da5bce60f43b077"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a0b7e601f560cf9cb4da5bce60f43b077">log_WARNING_HI_DecodeError</a> (I32 status)</td></tr>
@@ -300,6 +307,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5d17c7ee2240d9c130627aa648693549"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a5d17c7ee2240d9c130627aa648693549">log_WARNING_HI_PacketOutOfOrder_ThrottleClear</a> ()</td></tr>
 <tr class="memdesc:a5d17c7ee2240d9c130627aa648693549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset throttle value for PacketOutOfOrder.  <a href="class_svc_1_1_file_uplink_component_base.html#a5d17c7ee2240d9c130627aa648693549">More...</a><br /></td></tr>
 <tr class="separator:a5d17c7ee2240d9c130627aa648693549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bacd298fa43111fa91aefbc4025ca83"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a4bacd298fa43111fa91aefbc4025ca83">log_WARNING_HI_PacketDuplicate_ThrottleClear</a> ()</td></tr>
+<tr class="memdesc:a4bacd298fa43111fa91aefbc4025ca83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset throttle value for PacketDuplicate.  <a href="class_svc_1_1_file_uplink_component_base.html#a4bacd298fa43111fa91aefbc4025ca83">More...</a><br /></td></tr>
+<tr class="separator:a4bacd298fa43111fa91aefbc4025ca83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab29d443545b0613acc85e892d0a79af8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#ab29d443545b0613acc85e892d0a79af8">tlmWrite_FilesReceived</a> (U32 arg, <a class="el" href="class_fw_1_1_time.html">Fw::Time</a> _tlmTime=<a class="el" href="class_fw_1_1_time.html">Fw::Time</a>())</td></tr>
 <tr class="separator:ab29d443545b0613acc85e892d0a79af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a233fd739d100acf1c4a5fb30642691"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_file_uplink_component_base.html#a7a233fd739d100acf1c4a5fb30642691">tlmWrite_PacketsReceived</a> (U32 arg, <a class="el" href="class_fw_1_1_time.html">Fw::Time</a> _tlmTime=<a class="el" href="class_fw_1_1_time.html">Fw::Time</a>())</td></tr>
@@ -530,6 +540,8 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a38162fe2a87f5dd6bb762e7f8ed77e59aef0247ae496fa95f5d405db986acb2e7"></a>EVENTID_PACKETOUTOFORDER&#160;</td><td class="fielddoc"><p>The File Uplink component encountered an out-of-order packet during file receipt. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a38162fe2a87f5dd6bb762e7f8ed77e59a32971ce1e6dea29313c4e11d9e2d3b87"></a>EVENTID_PACKETDUPLICATE&#160;</td><td class="fielddoc"><p>The File Uplink component encountered a duplicate packet during file receipt. </p>
+</td></tr>
 <tr><td class="fieldname"><a id="a38162fe2a87f5dd6bb762e7f8ed77e59a04aa37042c3c89518b3664fcb0dfa347"></a>EVENTID_UPLINKCANCELED&#160;</td><td class="fielddoc"><p>The File Uplink component received a CANCEL packet. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a38162fe2a87f5dd6bb762e7f8ed77e59af6d651ef1f98b5a8907f0f98c72be70c"></a>EVENTID_DECODEERROR&#160;</td><td class="fielddoc"><p>Error decoding file packet. </p>
@@ -570,9 +582,11 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="aca18067311c66d9fbca0377c566d7d85aa38bbda63f2aefbc09ad0c92ac0a1406"></a>EVENTID_PACKETOUTOFORDER_THROTTLE&#160;</td><td class="fielddoc"><p>Throttle reset count for PacketOutOfOrder. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="aca18067311c66d9fbca0377c566d7d85a0d9eb9a7262299854e9e59026d8e2cf8"></a>EVENTID_PACKETDUPLICATE_THROTTLE&#160;</td><td class="fielddoc"><p>Throttle reset count for PacketDuplicate. </p>
+</td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8hpp_source.html#l00082">82</a> of file <a class="el" href="file_uplink_component_ac_8hpp_source.html">FileUplinkComponentAc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8hpp_source.html#l00083">83</a> of file <a class="el" href="file_uplink_component_ac_8hpp_source.html">FileUplinkComponentAc.hpp</a>.</p>
 
 </div>
 </div>
@@ -606,7 +620,7 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8hpp_source.html#l00090">90</a> of file <a class="el" href="file_uplink_component_ac_8hpp_source.html">FileUplinkComponentAc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8hpp_source.html#l00092">92</a> of file <a class="el" href="file_uplink_component_ac_8hpp_source.html">FileUplinkComponentAc.hpp</a>.</p>
 
 </div>
 </div>
@@ -672,7 +686,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Destroy <a class="el" href="class_svc_1_1_file_uplink_component_base.html" title="Auto-generated base for FileUplink component.">FileUplinkComponentBase</a> object. </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00492">492</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00493">493</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -765,7 +779,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00646">646</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00647">647</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -812,7 +826,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00760">760</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00761">761</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -859,7 +873,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00782">782</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00783">783</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -944,7 +958,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the number of bufferSendIn input ports</p>
 <dl class="section return"><dt>Returns</dt><dd>The number of bufferSendIn input ports </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00502">502</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00503">503</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -973,7 +987,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the number of bufferSendOut output ports</p>
 <dl class="section return"><dt>Returns</dt><dd>The number of bufferSendOut output ports </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00550">550</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00551">551</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +1016,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the number of eventOut output ports</p>
 <dl class="section return"><dt>Returns</dt><dd>The number of eventOut output ports </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00528">528</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00529">529</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1045,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the number of pingIn input ports</p>
 <dl class="section return"><dt>Returns</dt><dd>The number of pingIn input ports </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00508">508</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00509">509</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1074,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the number of pingOut output ports</p>
 <dl class="section return"><dt>Returns</dt><dd>The number of pingOut output ports </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00556">556</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00557">557</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1089,7 +1103,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the number of timeCaller output ports</p>
 <dl class="section return"><dt>Returns</dt><dd>The number of timeCaller output ports </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00534">534</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00535">535</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1118,7 +1132,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the number of tlmOut output ports</p>
 <dl class="section return"><dt>Returns</dt><dd>The number of tlmOut output ports </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00540">540</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00541">541</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1147,7 +1161,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the time</p>
 <p>\return The current time </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01756">1756</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01854">1854</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1222,7 +1236,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00618">618</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00619">619</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1258,7 +1272,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00581">581</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00582">582</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1294,7 +1308,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00629">629</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00630">630</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1330,7 +1344,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00592">592</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00593">593</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1366,7 +1380,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00603">603</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00604">604</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1402,7 +1416,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00998">998</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00999">999</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1431,7 +1445,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Log event UplinkCanceled</p>
 <p>The File Uplink component received a CANCEL packet </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01470">1470</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01561">1561</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1485,7 +1499,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00816">816</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00817">817</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1521,7 +1535,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01535">1535</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01626">1626</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1557,7 +1571,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00926">926</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00927">927</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1593,7 +1607,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01070">1070</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01071">1071</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1622,7 +1636,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reset throttle value for FileWriteError. </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01621">1621</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01712">1712</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1669,7 +1683,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01150">1150</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01151">1151</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1698,7 +1712,72 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reset throttle value for InvalidReceiveMode. </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01628">1628</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01719">1719</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a63c10becb888bbb1a187d1ae89e42ca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63c10becb888bbb1a187d1ae89e42ca8">&#9670;&nbsp;</a></span>log_WARNING_HI_PacketDuplicate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Svc::FileUplinkComponentBase::log_WARNING_HI_PacketDuplicate </td>
+          <td>(</td>
+          <td class="paramtype">U32&#160;</td>
+          <td class="paramname"><em>packetIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Log event PacketDuplicate</p>
+<p>The File Uplink component encountered a duplicate packet during file receipt </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">packetIndex</td><td>The sequence index of the duplicate packet </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01471">1471</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a4bacd298fa43111fa91aefbc4025ca83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bacd298fa43111fa91aefbc4025ca83">&#9670;&nbsp;</a></span>log_WARNING_HI_PacketDuplicate_ThrottleClear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Svc::FileUplinkComponentBase::log_WARNING_HI_PacketDuplicate_ThrottleClear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reset throttle value for PacketDuplicate. </p>
+
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01740">1740</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1745,7 +1824,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01260">1260</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01261">1261</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1774,7 +1853,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reset throttle value for PacketOutOfBounds. </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01635">1635</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01726">1726</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1821,7 +1900,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01360">1360</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01361">1361</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1850,7 +1929,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reset throttle value for PacketOutOfOrder. </p>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01642">1642</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01733">1733</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1942,7 +2021,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00699">699</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00700">700</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -1989,7 +2068,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00769">769</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00770">770</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -2036,7 +2115,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00797">797</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l00798">798</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -2278,7 +2357,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01653">1653</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01751">1751</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -2325,7 +2404,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01686">1686</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01784">1784</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -2372,7 +2451,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01719">1719</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="file_uplink_component_ac_8cpp_source.html#l01817">1817</a> of file <a class="el" href="file_uplink_component_ac_8cpp_source.html">FileUplinkComponentAc.cpp</a>.</p>
 
 </div>
 </div>

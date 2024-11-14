@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"namespace_os_1_1_generic.html":[28,0,5,2],
+"namespace_os_1_1_generic.html#a7658440e7ab158208b97e002dee0e879":[28,0,5,2,3],
 "namespace_os_1_1_generic.html#a7658440e7ab158208b97e002dee0e879a5c7df591daa5bce645990e1e41ee3528":[28,0,5,2,3,0],
 "namespace_os_1_1_generic.html#a7658440e7ab158208b97e002dee0e879a8da171662dc069a7a7330fbc2699f014":[28,0,5,2,3,1],
 "namespace_os_1_1_linux.html":[28,0,5,3],
@@ -131,8 +133,8 @@ var NAVTREEINDEX37 =
 "namespace_utils.html#a85cb85382b6bbc7b26ea488e7377ec54a923d3112910ec691929e92deb0da1a0f":[28,0,10,4,2],
 "namespace_utils.html#a85cb85382b6bbc7b26ea488e7377ec54afadefa0f09cc18ea54d6b1d44263cc9f":[28,0,10,4,4],
 "namespace_utils.html#aa770ad15435067b253e2d7325ca1c331":[28,0,10,8],
-"namespacemembers.html":[28,1,0],
 "namespacemembers.html":[28,1,0,0],
+"namespacemembers.html":[28,1,0],
 "namespacemembers_b.html":[28,1,0,1],
 "namespacemembers_c.html":[28,1,0,2],
 "namespacemembers_d.html":[28,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "struct_os_1_1_file_handle.html":[29,0,3,28],
 "struct_os_1_1_file_system_handle.html":[29,0,3,31],
 "struct_os_1_1_generic_1_1_priority_queue_handle.html":[29,0,3,1,0],
-"struct_os_1_1_generic_1_1_priority_queue_handle.html#a097661f4c73ea40a5d01aea742550ff4":[29,0,3,1,0,5],
-"struct_os_1_1_generic_1_1_priority_queue_handle.html#a0efd7721247572428567294e2d4939fd":[29,0,3,1,0,3],
-"struct_os_1_1_generic_1_1_priority_queue_handle.html#a0fe17bfb2c001a609b0c2175fa82ae3c":[29,0,3,1,0,14]
+"struct_os_1_1_generic_1_1_priority_queue_handle.html#a097661f4c73ea40a5d01aea742550ff4":[29,0,3,1,0,5]
 };
