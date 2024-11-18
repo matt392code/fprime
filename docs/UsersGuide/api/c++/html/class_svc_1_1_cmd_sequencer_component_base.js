@@ -87,6 +87,7 @@ var class_svc_1_1_cmd_sequencer_component_base =
     [ "log_WARNING_HI_CS_TimeBaseMismatch", "class_svc_1_1_cmd_sequencer_component_base.html#a6063a9c46a688f57ae055a6c3f590995", null ],
     [ "log_WARNING_HI_CS_TimeContextMismatch", "class_svc_1_1_cmd_sequencer_component_base.html#a7382d33395b2a7e32d606d76d5c4a6ef", null ],
     [ "log_WARNING_HI_CS_UnexpectedCompletion", "class_svc_1_1_cmd_sequencer_component_base.html#adb64b5e530137b38a20382fad61fa217", null ],
+    [ "log_WARNING_LO_CS_NoRecords", "class_svc_1_1_cmd_sequencer_component_base.html#a0dfb8cd7e01784ecbf2294ed4d78f040", null ],
     [ "log_WARNING_LO_CS_NoSequenceActive", "class_svc_1_1_cmd_sequencer_component_base.html#ad64687d4232cfff4d713f7bd47378e88", null ],
     [ "pingIn_handler", "class_svc_1_1_cmd_sequencer_component_base.html#a8398971c5564a314d4c6fbf5e35eed7f", null ],
     [ "pingIn_handlerBase", "class_svc_1_1_cmd_sequencer_component_base.html#aafed98dc00c3d7a070372be81f4c497f", null ],

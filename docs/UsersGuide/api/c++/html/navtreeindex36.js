@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"md_docs_doc_index.html#autotoc_md204":[11,11,0],
 "md_docs_doc_index.html#autotoc_md205":[11,11,0,0],
 "md_docs_doc_index.html#autotoc_md206":[11,11,0,1],
 "md_docs_doc_index.html#autotoc_md207":[11,11,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "namespace_os_1_1_darwin_1_1_memory.html":[28,0,5,0,1],
 "namespace_os_1_1_darwin_1_1_memory.html#a559a5f68819384dd4a8d2069ef7f3d70":[28,0,5,0,1,2],
 "namespace_os_1_1_delegate.html":[28,0,5,1],
-"namespace_os_1_1_delegate.html#a06b343274103dadcbff9cc88bc835291":[28,0,5,1,0],
-"namespace_os_1_1_delegate.html#adea32912a77960222f0497e9807fa7c4":[28,0,5,1,1]
+"namespace_os_1_1_delegate.html#a06b343274103dadcbff9cc88bc835291":[28,0,5,1,0]
 };

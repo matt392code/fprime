@@ -6,6 +6,7 @@ var class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events =
     [ "fileNotFound", "class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events.html#a47a839e281dcce4d306284cb33046973", null ],
     [ "fileReadError", "class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events.html#a60265524fd84459b3a70ae6dd9dd5b6c", null ],
     [ "fileSizeError", "class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events.html#a5baa3ef447cdc935759f0d2724271e86", null ],
+    [ "noRecords", "class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events.html#a81718ae320907d7445cd65617cc1e475", null ],
     [ "recordInvalid", "class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events.html#ae26622ba5d4e0fda35eca7d4b909816e", null ],
     [ "recordMismatch", "class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events.html#a3311f050b2b54b4dec63f791f50671b4", null ],
     [ "timeBaseMismatch", "class_svc_1_1_cmd_sequencer_component_impl_1_1_sequence_1_1_events.html#a58ba7963b6eff796c219ea0778a1571b", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX37 =
 {
+"namespace_os_1_1_delegate.html#adea32912a77960222f0497e9807fa7c4":[28,0,5,1,1],
 "namespace_os_1_1_generic.html":[28,0,5,2],
 "namespace_os_1_1_generic.html#a7658440e7ab158208b97e002dee0e879":[28,0,5,2,3],
 "namespace_os_1_1_generic.html#a7658440e7ab158208b97e002dee0e879a5c7df591daa5bce645990e1e41ee3528":[28,0,5,2,3,0],
@@ -208,13 +209,13 @@ var NAVTREEINDEX37 =
 "sha_8h.html#ae2f73c7229bdf4daa5cdcd0398440c01":[30,0,16,1,1,0,46],
 "sha_8h.html#ae5a6272795b1b8e0045aa7a4319dceb8":[30,0,16,1,1,0,15],
 "sha_8h_source.html":[30,0,16,1,1,0],
-"struct_drv_1_1_socket_descriptor.html":[29,0,1,36],
-"struct_drv_1_1_socket_descriptor.html#a702a005d57fdba9c9fdcdadf4ed49c0b":[29,0,1,36,1],
-"struct_drv_1_1_socket_descriptor.html#abc3b42fa09acb612417f57ed29c1c3ac":[29,0,1,36,0],
-"struct_drv_1_1_socket_state.html":[29,0,1,41],
-"struct_drv_1_1_socket_state.html#a72912ac0ad48ef77c2c795712301370b":[29,0,1,41,2],
-"struct_drv_1_1_socket_state.html#a79fba79f80533ea1bae3589fb30bb041":[29,0,1,41,0],
-"struct_drv_1_1_socket_state.html#af7f4587869e95afb9e99dedf1e1a47b1":[29,0,1,41,1],
+"struct_drv_1_1_socket_descriptor.html":[29,0,1,35],
+"struct_drv_1_1_socket_descriptor.html#a702a005d57fdba9c9fdcdadf4ed49c0b":[29,0,1,35,1],
+"struct_drv_1_1_socket_descriptor.html#abc3b42fa09acb612417f57ed29c1c3ac":[29,0,1,35,0],
+"struct_drv_1_1_socket_state.html":[29,0,1,40],
+"struct_drv_1_1_socket_state.html#a72912ac0ad48ef77c2c795712301370b":[29,0,1,40,2],
+"struct_drv_1_1_socket_state.html#a79fba79f80533ea1bae3589fb30bb041":[29,0,1,40,0],
+"struct_drv_1_1_socket_state.html#af7f4587869e95afb9e99dedf1e1a47b1":[29,0,1,40,1],
 "struct_fw_1_1_byte_array.html":[29,0,2,87],
 "struct_fw_1_1_byte_array.html#a82b76e66a551c6e51955aec07bdca3f5":[29,0,2,87,2],
 "struct_fw_1_1_byte_array.html#aa8274e2f496b72bd8650e31c79c5912e":[29,0,2,87,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX37 =
 "struct_os_1_1_directory_handle.html":[29,0,3,25],
 "struct_os_1_1_file_handle.html":[29,0,3,28],
 "struct_os_1_1_file_system_handle.html":[29,0,3,31],
-"struct_os_1_1_generic_1_1_priority_queue_handle.html":[29,0,3,1,0],
-"struct_os_1_1_generic_1_1_priority_queue_handle.html#a097661f4c73ea40a5d01aea742550ff4":[29,0,3,1,0,5]
+"struct_os_1_1_generic_1_1_priority_queue_handle.html":[29,0,3,1,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX29 =
 {
+"class_svc_1_1_generic_hub_component_impl.html#a731e57c8e4c3341480cabb23567a38e8":[29,0,5,121,3],
+"class_svc_1_1_generic_hub_component_impl.html#ae54b83408d35f5b5fc11ad491502aaad":[29,0,5,121,2],
 "class_svc_1_1_health_component_base.html":[29,0,5,52],
 "class_svc_1_1_health_component_base.html#a085c21c15042f30b78e45674731de398":[29,0,5,52,34],
 "class_svc_1_1_health_component_base.html#a0989652fbb1eae5531b7b65088676a04":[29,0,5,52,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX29 =
 "class_svc_1_1_passive_rate_group_component_base.html#a67007c373e33fe2208634ec7ddc4dca2":[29,0,5,55,1],
 "class_svc_1_1_passive_rate_group_component_base.html#a7318f18927f3d339299af75d07ff782d":[29,0,5,55,13],
 "class_svc_1_1_passive_rate_group_component_base.html#a73e624fc7723703c0ce1b4cc1781337a":[29,0,5,55,15],
-"class_svc_1_1_passive_rate_group_component_base.html#a79897bf878a756012be1ec2b4393a64d":[29,0,5,55,18],
-"class_svc_1_1_passive_rate_group_component_base.html#a8d569ed2feb81945496960ca91a3894f":[29,0,5,55,14],
-"class_svc_1_1_passive_rate_group_component_base.html#a94797c86041e0c1830c81768b836149c":[29,0,5,55,2]
+"class_svc_1_1_passive_rate_group_component_base.html#a79897bf878a756012be1ec2b4393a64d":[29,0,5,55,18]
 };

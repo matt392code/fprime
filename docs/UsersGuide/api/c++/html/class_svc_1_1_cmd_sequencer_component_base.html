@@ -262,6 +262,7 @@ Protected Types</h2></td></tr>
 , <a class="el" href="class_svc_1_1_cmd_sequencer_component_base.html#a7d4fbe0236c5c126f5ec1cfc533fb6fea9789f67f3022965e1212e3870619acb5">EVENTID_CS_JOINWAITING</a> = 0x17
 , <br />
 &#160;&#160;<a class="el" href="class_svc_1_1_cmd_sequencer_component_base.html#a7d4fbe0236c5c126f5ec1cfc533fb6fea38a1126c4a1cefe999bfc329c5db31f4">EVENTID_CS_JOINWAITINGNOTCOMPLETE</a> = 0x18
+, <a class="el" href="class_svc_1_1_cmd_sequencer_component_base.html#a7d4fbe0236c5c126f5ec1cfc533fb6feaaf1e08e529a0884668b43e8c5f0cd82b">EVENTID_CS_NORECORDS</a> = 0x19
 <br />
  }</td></tr>
 <tr class="memdesc:a7d4fbe0236c5c126f5ec1cfc533fb6fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event IDs.  <a href="class_svc_1_1_cmd_sequencer_component_base.html#a7d4fbe0236c5c126f5ec1cfc533fb6fe">More...</a><br /></td></tr>
@@ -508,6 +509,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ae8ac03d40b2a4b344939bc0a3531e595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0445d88fd2907aab3b720f69b16b8a2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_cmd_sequencer_component_base.html#a0445d88fd2907aab3b720f69b16b8a2f">log_WARNING_HI_CS_JoinWaitingNotComplete</a> ()</td></tr>
 <tr class="separator:a0445d88fd2907aab3b720f69b16b8a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dfb8cd7e01784ecbf2294ed4d78f040"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_cmd_sequencer_component_base.html#a0dfb8cd7e01784ecbf2294ed4d78f040">log_WARNING_LO_CS_NoRecords</a> (const <a class="el" href="class_fw_1_1_string_base.html">Fw::StringBase</a> &amp;fileName)</td></tr>
+<tr class="memdesc:a0dfb8cd7e01784ecbf2294ed4d78f040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log event CS_NoRecords.  <a href="class_svc_1_1_cmd_sequencer_component_base.html#a0dfb8cd7e01784ecbf2294ed4d78f040">More...</a><br /></td></tr>
+<tr class="separator:a0dfb8cd7e01784ecbf2294ed4d78f040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70eb6fdee74aabd0389901655fe260f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_cmd_sequencer_component_base.html#af70eb6fdee74aabd0389901655fe260f">tlmWrite_CS_LoadCommands</a> (U32 arg, <a class="el" href="class_fw_1_1_time.html">Fw::Time</a> _tlmTime=<a class="el" href="class_fw_1_1_time.html">Fw::Time</a>())</td></tr>
 <tr class="separator:af70eb6fdee74aabd0389901655fe260f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23e371fad7b85b4385d407baabb32142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_svc_1_1_cmd_sequencer_component_base.html#a23e371fad7b85b4385d407baabb32142">tlmWrite_CS_CancelCommands</a> (U32 arg, <a class="el" href="class_fw_1_1_time.html">Fw::Time</a> _tlmTime=<a class="el" href="class_fw_1_1_time.html">Fw::Time</a>())</td></tr>
@@ -858,6 +862,7 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a7d4fbe0236c5c126f5ec1cfc533fb6fea38a1126c4a1cefe999bfc329c5db31f4"></a>EVENTID_CS_JOINWAITINGNOTCOMPLETE&#160;</td><td class="fielddoc"><p>Cannot run new sequence when current sequence file is still running. </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a7d4fbe0236c5c126f5ec1cfc533fb6feaaf1e08e529a0884668b43e8c5f0cd82b"></a>EVENTID_CS_NORECORDS&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8hpp_source.html#l00103">103</a> of file <a class="el" href="cmd_sequencer_component_ac_8hpp_source.html">CmdSequencerComponentAc.hpp</a>.</p>
@@ -898,7 +903,7 @@ Additional Inherited Members</h2></td></tr>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8hpp_source.html#l00132">132</a> of file <a class="el" href="cmd_sequencer_component_ac_8hpp_source.html">CmdSequencerComponentAc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8hpp_source.html#l00133">133</a> of file <a class="el" href="cmd_sequencer_component_ac_8hpp_source.html">CmdSequencerComponentAc.hpp</a>.</p>
 
 </div>
 </div>
@@ -3075,7 +3080,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Get the time</p>
 <p>\return The current time </p>
 
-<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04510">4510</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04582">4582</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -4494,6 +4499,42 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a0dfb8cd7e01784ecbf2294ed4d78f040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dfb8cd7e01784ecbf2294ed4d78f040">&#9670;&nbsp;</a></span>log_WARNING_LO_CS_NoRecords()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Svc::CmdSequencerComponentBase::log_WARNING_LO_CS_NoRecords </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_fw_1_1_string_base.html">Fw::StringBase</a> &amp;&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Log event CS_NoRecords. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>The name of the sequence file </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04337">4337</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
+
+</div>
+</div>
 <a id="ad64687d4232cfff4d713f7bd47378e88"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad64687d4232cfff4d713f7bd47378e88">&#9670;&nbsp;</a></span>log_WARNING_LO_CS_NoSequenceActive()</h2>
 
@@ -5617,7 +5658,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04374">4374</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04446">4446</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -5664,7 +5705,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04440">4440</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04512">4512</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -5711,7 +5752,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04407">4407</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04479">4479</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -5758,7 +5799,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04341">4341</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04413">4413</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
 
 </div>
 </div>
@@ -5805,7 +5846,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04473">4473</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html#l04545">4545</a> of file <a class="el" href="cmd_sequencer_component_ac_8cpp_source.html">CmdSequencerComponentAc.cpp</a>.</p>
 
 </div>
 </div>
