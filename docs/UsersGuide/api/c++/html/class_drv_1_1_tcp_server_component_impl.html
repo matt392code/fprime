@@ -116,7 +116,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a19dfacaa6e2e9ff413b84eafa61ec416"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the component.  <a href="class_drv_1_1_tcp_server_component_impl.html#a19dfacaa6e2e9ff413b84eafa61ec416">More...</a><br /></td></tr>
 <tr class="separator:a19dfacaa6e2e9ff413b84eafa61ec416"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a612a26c6d804d8137ea71fdec485d596"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_drv.html#a1c85f9fab0c8763f9fec49eee9fc734d">SocketIpStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drv_1_1_tcp_server_component_impl.html#a612a26c6d804d8137ea71fdec485d596">configure</a> (const char *hostname, const U16 port, const U32 send_timeout_seconds=<a class="el" href="ip_cfg_8hpp.html#a71b2b0b2f0742bd012e1a8e16ee1ee74a13c2974f4bb646b1b469e1cc4ff7fcdf">SOCKET_SEND_TIMEOUT_SECONDS</a>, const U32 send_timeout_microseconds=<a class="el" href="ip_cfg_8hpp.html#a71b2b0b2f0742bd012e1a8e16ee1ee74a9bf9b8ed768b479725c43505b7282640">SOCKET_SEND_TIMEOUT_MICROSECONDS</a>, <a class="el" href="fp_config_8h.html#a924ef0ded73e6ec8a0a0b55e9e555fc4">FwSizeType</a> buffer_size=1024)</td></tr>
-<tr class="memdesc:a612a26c6d804d8137ea71fdec485d596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the TcpClient settings but does not open the connection.  <a href="class_drv_1_1_tcp_server_component_impl.html#a612a26c6d804d8137ea71fdec485d596">More...</a><br /></td></tr>
+<tr class="memdesc:a612a26c6d804d8137ea71fdec485d596"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the TcpServer settings but does not open the connection.  <a href="class_drv_1_1_tcp_server_component_impl.html#a612a26c6d804d8137ea71fdec485d596">More...</a><br /></td></tr>
 <tr class="separator:a612a26c6d804d8137ea71fdec485d596"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e9d115ba054b0b1f61b5a42408d3cb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drv_1_1_tcp_server_component_impl.html#a8e9d115ba054b0b1f61b5a42408d3cb3">isStarted</a> ()</td></tr>
 <tr class="memdesc:a8e9d115ba054b0b1f61b5a42408d3cb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">is started  <a href="class_drv_1_1_tcp_server_component_impl.html#a8e9d115ba054b0b1f61b5a42408d3cb3">More...</a><br /></td></tr>
@@ -421,8 +421,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Configures the TcpClient settings but does not open the connection. </p>
-<p>The TcpClientComponent needs to connect to a remote TCP server. This call configures the hostname, port and send timeouts for that socket connection. This call should be performed on system startup before recv or send are called. Note: hostname must be a dot-notation IP address of the form "x.x.x.x". DNS translation is left up to the user.</p>
+<p>Configures the TcpServer settings but does not open the connection. </p>
+<p>The TcpServerComponent needs to listen for a remote TCP client. This call configures the hostname, port and send timeouts for that socket connection. This call should be performed on system startup before recv or send are called. Note: hostname must be a dot-notation IP address of the form "x.x.x.x". DNS translation is left up to the user.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">hostname</td><td>ip address of remote tcp server in the form x.x.x.x </td></tr>
@@ -550,7 +550,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>returns a reference to the socket handler </p>
-<p>Gets a reference to the current socket handler in order to operate generically on the <a class="el" href="class_drv_1_1_ip_socket.html" title="Helper base-class for setting up Berkeley sockets.">IpSocket</a> instance. Used for receive, and open calls. This socket handler will be a TcpClient.</p>
+<p>Gets a reference to the current socket handler in order to operate generically on the <a class="el" href="class_drv_1_1_ip_socket.html" title="Helper base-class for setting up Berkeley sockets.">IpSocket</a> instance. Used for receive, and open calls. This socket handler will be a TcpServer.</p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_drv_1_1_ip_socket.html" title="Helper base-class for setting up Berkeley sockets.">IpSocket</a> reference </dd></dl>
 
 <p>Implements <a class="el" href="class_drv_1_1_socket_component_helper.html#a49c6e31826561839395a6e40afe814d3">Drv::SocketComponentHelper</a>.</p>
