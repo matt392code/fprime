@@ -96,13 +96,13 @@ Design</h2>
 <p>The manager component (typically the ground interface) initiates the transfer of send data by calling the "send" port. The caller will provide a <code><a class="el" href="class_fw_1_1_buffer.html">Fw::Buffer</a></code> containing the data to send and the port call will return a status of that send. These responses are an enumeration whose values are described in the following table:</p>
 <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">Value   </th><th class="markdownTableHeadNone">Description    </th></tr>
+<th class="markdownTableHeadNone">Value   </th><th class="markdownTableHeadNone">Description   </th><th class="markdownTableHeadNone">Buffer Ownership    </th></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Drv::SEND_OK   </td><td class="markdownTableBodyNone">Send functioned normally.    </td></tr>
+<td class="markdownTableBodyNone">Drv::SEND_OK   </td><td class="markdownTableBodyNone">Send functioned normally.   </td><td class="markdownTableBodyNone">Ownership of the <code><a class="el" href="class_fw_1_1_buffer.html">Fw::Buffer</a></code> passes to the byte stream driver.    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Drv::SEND_RETRY   </td><td class="markdownTableBodyNone">Send should be retried, but a subsequent send should return SEND_OK.    </td></tr>
+<td class="markdownTableBodyNone">Drv::SEND_RETRY   </td><td class="markdownTableBodyNone">Send should be retried, but a subsequent send should return SEND_OK.   </td><td class="markdownTableBodyNone">The caller retains ownership of the <code><a class="el" href="class_fw_1_1_buffer.html">Fw::Buffer</a></code>.    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">Drv::SEND_ERROR   </td><td class="markdownTableBodyNone">Send produced an error, future sends likely to fail.   </td></tr>
+<td class="markdownTableBodyNone">Drv::SEND_ERROR   </td><td class="markdownTableBodyNone">Send produced an error, future sends likely to fail.   </td><td class="markdownTableBodyNone">Ownership of the <code><a class="el" href="class_fw_1_1_buffer.html">Fw::Buffer</a></code> passes to the byte stream driver.   </td></tr>
 </table>
 <p><b>Note:</b> in either formation described below, send will operate as described here.</p>
 <h3><a class="anchor" id="autotoc_md407"></a>
