@@ -79,7 +79,6 @@
 - [Linux](UsersGuide/api/cmake/platform/Linux.md)
 - [platform-template](UsersGuide/api/cmake/platform/platform-template.md)
 - [platform](UsersGuide/api/cmake/platform/platform.md)
-- [rtems5](UsersGuide/api/cmake/platform/rtems5.md)
 ##### UsersGuide/api/cmake/profile
 - [profile](UsersGuide/api/cmake/profile/profile.md)
 ##### UsersGuide/api/cmake/settings

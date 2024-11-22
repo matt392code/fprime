@@ -29,7 +29,6 @@
 - [Linux](platform/Linux.md)
 - [platform-template](platform/platform-template.md)
 - [platform](platform/platform.md)
-- [rtems5](platform/rtems5.md)
 ## profile
 - [profile](profile/profile.md)
 ## settings

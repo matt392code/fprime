@@ -22,11 +22,19 @@ and should be skipped.
 
 ## Macro `restrict_platforms`:
 
-Restricts a CMakeLists.txt file to a given list of platforms. This prevents usage on platforms for which the module
-is incapable of being used and replaces the historical pattern of an if-tree detecting unsupported platforms.
+Restricts a CMakeLists.txt file to a given list of supported platforms, toolchains, and features. This prevents
+usage on platforms/toolchains  for which the module is incapable of being used and replaces the historical pattern of
+an if-tree detecting unsupported platforms in most circumstances.
+
+Valid inputs include names of platforms (e.g. Linux), names of specific toolchains (e.g. aarch64-linux), and platform
+supported feature sets (e.g. SOCKETS, which inspects the FPRIME_HAS_SOCKETS flag).
 
 Usage:
    restrict_platforms(Linux Darwin) # Restricts to Linux and Darwin platforms
+       -or-
+   restrict_platforms(Posix) # Restricts to posix systems
+       -or-
+   restrict_platforms(SOCKETS) # Restricts to platforms where FPRIME_HAS_SOCKETS is TRUE
 
 Args:
   ARGN: list of platforms that are supported
