@@ -153,9 +153,11 @@ Practically, this adds the -fsanitizers=address flag to both the compiler and li
 
 **Values:**
 - ON: enables AddressSanitizer.
-- OFF: (default) does not enable AddressSanitizer.
+- OFF: does not enable AddressSanitizer.
 
-e.g. `-DENABLE_SANITIZER_ADDRESS=ON`
+Defaults to ON when BUILD_TESTING is ON
+
+e.g. `-DENABLE_SANITIZER_ADDRESS=OFF`
 
 
 ## `ENABLE_SANITIZER_LEAK:`
@@ -168,9 +170,11 @@ Note: LeakSanitizer is not available on macOS. Use AddressSanitizer instead.
 
 **Values:**
 - ON: enables LeakSanitizer.
-- OFF: (default) does not enable LeakSanitizer.
+- OFF: does not enable LeakSanitizer.
 
-e.g. `-DENABLE_SANITIZER_LEAK=ON`
+Defaults to ON when BUILD_TESTING is ON
+
+e.g. `-DENABLE_SANITIZER_LEAK=OFF`
 
 
 ## `ENABLE_SANITIZER_UNDEFINED_BEHAVIOR:`
@@ -181,7 +185,9 @@ Practically, this adds the -fsanitizers=undefined flag to both the compiler and 
 
 **Values:**
 - ON: enables UndefinedBehaviorSanitizer.
-- OFF: (default) does not enable UndefinedBehaviorSanitizer.
+- OFF: does not enable UndefinedBehaviorSanitizer.
+
+Defaults to ON when BUILD_TESTING is ON
 
 e.g. `-DENABLE_SANITIZER_UNDEFINED_BEHAVIOR=ON`
 
