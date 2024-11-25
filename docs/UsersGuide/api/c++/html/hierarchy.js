@@ -230,6 +230,9 @@ var hierarchy =
         [ "Svc::BufferRepeaterComponentBase", "class_svc_1_1_buffer_repeater_component_base.html", [
           [ "Svc::BufferRepeater", "class_svc_1_1_buffer_repeater.html", null ]
         ] ],
+        [ "Svc::ChronoTimeComponentBase", "class_svc_1_1_chrono_time_component_base.html", [
+          [ "Svc::ChronoTime", "class_svc_1_1_chrono_time.html", null ]
+        ] ],
         [ "Svc::CmdSplitterComponentBase", "class_svc_1_1_cmd_splitter_component_base.html", [
           [ "Svc::CmdSplitter", "class_svc_1_1_cmd_splitter.html", null ]
         ] ],

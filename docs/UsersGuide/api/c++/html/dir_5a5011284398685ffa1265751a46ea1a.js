@@ -8,6 +8,7 @@ var dir_5a5011284398685ffa1265751a46ea1a =
     [ "BufferLogger", "dir_16b62ff50fba865b83762b02e610080c.html", "dir_16b62ff50fba865b83762b02e610080c" ],
     [ "BufferManager", "dir_7c0ce2d26ea6d8204d599b176dd7f2f4.html", "dir_7c0ce2d26ea6d8204d599b176dd7f2f4" ],
     [ "BufferRepeater", "dir_9c10b9213eb816afb21ad91692ecb9ef.html", "dir_9c10b9213eb816afb21ad91692ecb9ef" ],
+    [ "ChronoTime", "dir_7fe8b87749f2e3f031edf1c9bf26b8b3.html", "dir_7fe8b87749f2e3f031edf1c9bf26b8b3" ],
     [ "CmdDispatcher", "dir_1f2f6445687fcd31f78dfb803c39b206.html", "dir_1f2f6445687fcd31f78dfb803c39b206" ],
     [ "CmdSequencer", "dir_b55416741c5ac0835b3ce2fcec8cef6a.html", "dir_b55416741c5ac0835b3ce2fcec8cef6a" ],
     [ "CmdSplitter", "dir_3385e753520c120e272fb4543253c802.html", "dir_3385e753520c120e272fb4543253c802" ],
