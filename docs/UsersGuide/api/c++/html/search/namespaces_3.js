@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loggerrules_4935',['LoggerRules',['../namespace_logger_rules.html',1,'']]]
+  ['loggerrules_4929',['LoggerRules',['../namespace_logger_rules.html',1,'']]]
 ];

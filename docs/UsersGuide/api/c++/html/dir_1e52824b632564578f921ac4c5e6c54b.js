@@ -1,5 +1,6 @@
 var dir_1e52824b632564578f921ac4c5e6c54b =
 [
+    [ "docs", "dir_9652aeee7768294ab3187dd07a8e0582.html", null ],
     [ "Types", "dir_ac8715a322b9e491cbbd37ce444263e2.html", "dir_ac8715a322b9e491cbbd37ce444263e2" ],
     [ "DefaultPriorityQueue.cpp", "default_priority_queue_8cpp.html", null ],
     [ "PriorityQueue.cpp", "priority_queue_8cpp.html", null ],
